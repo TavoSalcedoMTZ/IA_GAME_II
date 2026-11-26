@@ -18,7 +18,9 @@ public class AI_GAME : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
-			"Slate"
+			"Slate",
+			"NavigationSystem",
+			"GameplayTags"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
@@ -30,7 +32,8 @@ public class AI_GAME : ModuleRules
 			"AI_GAME/Variant_Shooter",
 			"AI_GAME/Variant_Shooter/AI",
 			"AI_GAME/Variant_Shooter/UI",
-			"AI_GAME/Variant_Shooter/Weapons"
+			"AI_GAME/Variant_Shooter/Weapons",
+			"AI_GAME/DragonRider"
 		});
 
 		// Uncomment if you are using Slate UI

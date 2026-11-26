@@ -11,5 +11,6 @@ public class AI_GAMEEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V7;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_8;
 		ExtraModuleNames.Add("AI_GAME");
+		ExtraModuleNames.Add("AI_GAMEEditor");
 	}
 }
